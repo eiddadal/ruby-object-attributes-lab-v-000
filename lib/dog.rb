@@ -1,8 +1,14 @@
 class Dog 
+    def name
+    @name
+  end 
   def name=(dogs_name)
-    @this_dog_name = dogs_name
+    @name = dogs_name
   end 
-  def name 
-    @this_dog_name
+  def job 
+    @job 
   end 
+  def job=(persons_job)
+    @job = persons_job
+  end
 end 
